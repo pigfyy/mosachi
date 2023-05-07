@@ -1,0 +1,84 @@
+.popup__container {
+  border-radius: 1rem;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.popup > div {
+  width: 95%;
+}
+
+.popup hr {
+  width: 100%;
+  border-width: 1px;
+  margin: 0.9rem 0;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  margin: 0.3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading > svg {
+  cursor: pointer;
+  font-size: 1.75rem;
+}
+
+.popup p {
+  word-wrap: break-word;
+}
+
+.pointsNeeded__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.2rem 0;
+}
+
+.pointsNeeded__container input {
+  width: 4.5rem;
+  margin: 0 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid hsl(0, 0%, 80%);
+  transition: all 0.2s ease-in-out;
+}
+
+.pointsNeeded__container input:hover {
+  border: 1px solid hsl(208, 7%, 46%);
+  transition: all 0.2s ease-in-out;
+}
+
+.pointsNeeded__container input:focus {
+  outline: none;
+  border: 1px solid hsla(208, 89%, 48%, 0.651);
+  transition: all 0.2s ease-in-out;
+}
+
+.button__container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.button {
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: hsl(208, 7%, 46%);
+  border-radius: 0.25rem;
+}
+
+.button___danger {
+  background-color: hsl(0, 82%, 46%);
+}

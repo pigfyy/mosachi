@@ -1,0 +1,96 @@
+.logoutButton {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-radius: 9999px;
+  color: hsl(208, 7%, 46%);
+  border: 1px solid hsl(208, 7%, 46%);
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  transition: all 0.2s ease;
+}
+
+.logoutButton:hover {
+  background-color: hsl(208, 7%, 46%);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  min-height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.welcome {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.classes {
+  border: 1px solid hsl(0, 0%, 73%);
+  border-radius: 20px;
+}
+
+.classWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 0%, 97%);
+  gap: 30px;
+  padding: 20px;
+  border-bottom: 1px solid hsl(0, 0%, 73%);
+}
+
+.classWrapper:first-child {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.classWrapper:last-child {
+  border-bottom: none;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.class__name {
+  font-size: 1.25rem;
+  color: hsl(210, 7%, 45%);
+  line-height: 1.5625rem;
+  margin-bottom: 8px;
+}
+
+.class__grade {
+  font-size: 1.25rem;
+  color: hsl(195, 14%, 55%);
+  line-height: 1.5625rem;
+}
+
+.class__button {
+  display: flex;
+  align-items: center;
+  border-radius: 99999px;
+  padding: 0.4rem 0.6rem;
+  gap: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: white;
+  background-color: hsl(216, 98%, 52%);
+  cursor: pointer;
+}
+
+.class__button:hover {
+  filter: brightness(1.1);
+}
+
+.class__button__icon {
+  color: hsl(216, 98%, 52%);
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.2rem;
+}

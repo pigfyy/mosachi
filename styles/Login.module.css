@@ -1,0 +1,87 @@
+.login {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0 0.75rem;
+}
+
+.logo {
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid hsl(0, 0%, 87%);
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+}
+
+.form input,
+.form select {
+  border: 1px solid hsl(0, 0%, 87%);
+  margin: 0.5rem 0 0 0;
+  background-color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.form input:hover,
+.form select:hover {
+  border: 1px solid hsl(208, 7%, 46%);
+  transition: all 0.2s ease-in-out;
+}
+
+.form input:focus,
+.form select:focus {
+  outline: none;
+  border: 1px solid hsla(208, 89%, 48%, 0.651);
+  transition: all 0.2s ease-in-out;
+}
+
+.form select {
+  margin-bottom: 1rem;
+}
+
+.form button {
+  margin-right: auto;
+  background-color: rgb(13, 109, 253);
+  color: white;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.form button:hover {
+  filter: brightness(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.form label {
+  margin-top: 1rem;
+}
+
+.form span {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.form .text_grey {
+  color: hsl(208, 7%, 46%);
+}
+
+.form .text_small {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.form .text_normal {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}

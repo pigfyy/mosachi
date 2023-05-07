@@ -1,0 +1,109 @@
+{
+  "period": {
+    "name": "AP Biology",
+    "assignments": [
+      {
+        "id": "1107954",
+        "name": "Evolution Quiz",
+        "pointsEarned": "Not graded",
+        "pointsPossible": 29,
+        "category": 1
+      },
+      {
+        "id": "1109271",
+        "name": "FRQ Practice",
+        "pointsEarned": 4,
+        "pointsPossible": 4,
+        "category": 0
+      },
+      {
+        "id": "1104588",
+        "name": "HW Check: Selection and Speciation",
+        "pointsEarned": 11,
+        "pointsPossible": 11,
+        "category": 0
+      },
+      {
+        "id": "1096403",
+        "name": "Dolphin Paternity Assignment",
+        "pointsEarned": 8,
+        "pointsPossible": 8,
+        "category": 0
+      },
+      {
+        "id": "1096397",
+        "name": "Quiz- Reg of Gene Exp and Biotech",
+        "pointsEarned": 25,
+        "pointsPossible": 26,
+        "category": 1
+      },
+      {
+        "id": "1096343",
+        "name": "Bacterial Transformation Analysis Questions",
+        "pointsEarned": 10,
+        "pointsPossible": 10,
+        "category": 0
+      },
+      {
+        "id": "1091974",
+        "name": "Bacterial Transformation Virtual Lab",
+        "pointsEarned": 12,
+        "pointsPossible": 12,
+        "category": 0
+      },
+      {
+        "id": "1085474",
+        "name": "Control of Gene Expression-Prokaryotes",
+        "pointsEarned": 9,
+        "pointsPossible": 9,
+        "category": 0
+      },
+      {
+        "id": "1078058",
+        "name": "Gene to Protein Quiz",
+        "pointsEarned": 24,
+        "pointsPossible": 27,
+        "category": 1
+      },
+      {
+        "id": "1076049",
+        "name": "Assignment: Translation",
+        "pointsEarned": 2,
+        "pointsPossible": 8,
+        "category": 0
+      },
+      {
+        "id": "1067530",
+        "name": "Assignment: Transcription ",
+        "pointsEarned": 7,
+        "pointsPossible": 7,
+        "category": 0
+      },
+      {
+        "id": "1068647",
+        "name": "DNA Replication Diagram",
+        "pointsEarned": 15,
+        "pointsPossible": 15,
+        "category": 0
+      },
+      {
+        "id": "1058623",
+        "name": "Chi Squared and Linked Genes Assignment",
+        "pointsEarned": 14,
+        "pointsPossible": 15,
+        "category": 0
+      }
+    ],
+    "categories": [
+      {
+        "name": "Graded Assignments",
+        "weight": 0.3
+      },
+      {
+        "name": "Assessments",
+        "weight": 0.7
+      }
+    ]
+  },
+  "periodInd": 5
+}

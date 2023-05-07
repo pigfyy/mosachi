@@ -1,0 +1,2226 @@
+{
+  "Gradebook": {
+    "$": {
+      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "Type": "Traditional",
+      "ErrorMessage": "",
+      "HideStandardGraphInd": "false",
+      "HideMarksColumnElementary": "true",
+      "HidePointsColumnElementary": "false",
+      "HidePercentSecondary": "false",
+      "DisplayStandardsData": "true",
+      "GBStandardsTabDefault": "true"
+    },
+    "ReportingPeriods": [
+      {
+        "ReportPeriod": [
+          {
+            "$": {
+              "Index": "0",
+              "GradePeriod": "Quarter 1",
+              "StartDate": "9/1/2022",
+              "EndDate": "11/7/2022"
+            }
+          },
+          {
+            "$": {
+              "Index": "1",
+              "GradePeriod": "Semester 1 Final",
+              "StartDate": "11/8/2022",
+              "EndDate": "1/27/2023"
+            }
+          },
+          {
+            "$": {
+              "Index": "2",
+              "GradePeriod": "Quarter 3",
+              "StartDate": "1/30/2023",
+              "EndDate": "4/20/2023"
+            }
+          },
+          {
+            "$": {
+              "Index": "3",
+              "GradePeriod": "Semester 2 FInal",
+              "StartDate": "4/21/2023",
+              "EndDate": "6/22/2023"
+            }
+          }
+        ]
+      }
+    ],
+    "ReportingPeriod": [
+      {
+        "$": {
+          "GradePeriod": "Semester 2 FInal",
+          "StartDate": "4/21/2023",
+          "EndDate": "6/22/2023"
+        }
+      }
+    ],
+    "Courses": [
+      {
+        "Course": [
+          {
+            "$": {
+              "UsesRichContent": "false",
+              "Period": "1",
+              "Title": "Academic Coach (EL_530.3)",
+              "Room": "0104",
+              "Staff": "Christopher George",
+              "StaffEMail": "georgec@bsd405.org",
+              "StaffGU": "2BF8A2EA-0435-44AD-919F-104BAF15C41D",
+              "HighlightPercentageCutOffForProgressBar": "75"
+            },
+            "Marks": [
+              {
+                "Mark": [
+                  {
+                    "$": {
+                      "MarkName": "S2 Final",
+                      "CalculatedScoreString": "A",
+                      "CalculatedScoreRaw": "100.0"
+                    },
+                    "StandardViews": [""],
+                    "GradeCalculationSummary": [""],
+                    "Assignments": [
+                      {
+                        "Assignment": [
+                          {
+                            "$": {
+                              "GradebookID": "1089087",
+                              "Measure": "Prob2Pres",
+                              "Type": "Class/HWork",
+                              "Date": "3/20/2023",
+                              "DueDate": "3/20/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "32014",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/15/2023",
+                              "DropEndDate": "3/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1089086",
+                              "Measure": "Prob1Pres",
+                              "Type": "Class/HWork",
+                              "Date": "3/16/2023",
+                              "DueDate": "3/16/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "32014",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/15/2023",
+                              "DropEndDate": "3/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1089084",
+                              "Measure": "Prob1Prep",
+                              "Type": "Class/HWork",
+                              "Date": "3/15/2023",
+                              "DueDate": "3/15/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "32014",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/15/2023",
+                              "DropEndDate": "3/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1089085",
+                              "Measure": "Prob2Prep",
+                              "Type": "Class/HWork",
+                              "Date": "3/15/2023",
+                              "DueDate": "3/15/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "32014",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/15/2023",
+                              "DropEndDate": "3/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "UsesRichContent": "true",
+              "Period": "2",
+              "Title": "AP Statistics (MAA702.0)",
+              "Room": "1111",
+              "Staff": "Zachary Blankers",
+              "StaffEMail": "BLANKERSZA@bsd405.org",
+              "StaffGU": "DD2910E7-0866-40D4-8A2E-4B81C236C7F3",
+              "HighlightPercentageCutOffForProgressBar": "50"
+            },
+            "Marks": [
+              {
+                "Mark": [
+                  {
+                    "$": {
+                      "MarkName": "S2 Final",
+                      "CalculatedScoreString": "A",
+                      "CalculatedScoreRaw": "92.00"
+                    },
+                    "StandardViews": [""],
+                    "GradeCalculationSummary": [
+                      {
+                        "AssignmentGradeCalc": [
+                          {
+                            "$": {
+                              "Type": "Assignment",
+                              "Weight": "20%",
+                              "Points": "115.00",
+                              "PointsPossible": "115.00",
+                              "WeightedPct": "20.00%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Summative Assessment",
+                              "Weight": "80%",
+                              "Points": "270.00",
+                              "PointsPossible": "300.00",
+                              "WeightedPct": "72.00%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "TOTAL",
+                              "Weight": "100%",
+                              "Points": "385.00",
+                              "PointsPossible": "415.00",
+                              "WeightedPct": "92.00%",
+                              "CalculatedMark": "A"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "Assignments": [
+                      {
+                        "Assignment": [
+                          {
+                            "$": {
+                              "GradebookID": "1102054",
+                              "Measure": "Chapter 12 Test",
+                              "Type": "Summative Assessment",
+                              "Date": "3/29/2023",
+                              "DueDate": "3/29/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Raw Score",
+                              "Points": "100.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102051",
+                              "Measure": "12.3.3",
+                              "Type": "Assignment",
+                              "Date": "3/27/2023",
+                              "DueDate": "3/28/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102048",
+                              "Measure": "12.3.2",
+                              "Type": "Assignment",
+                              "Date": "3/24/2023",
+                              "DueDate": "3/27/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102045",
+                              "Measure": "12.3.1",
+                              "Type": "Assignment",
+                              "Date": "3/23/2023",
+                              "DueDate": "3/24/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102042",
+                              "Measure": "12.2.2",
+                              "Type": "Assignment",
+                              "Date": "3/21/2023",
+                              "DueDate": "3/22/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102039",
+                              "Measure": "12.2.1",
+                              "Type": "Assignment",
+                              "Date": "3/20/2023",
+                              "DueDate": "3/21/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102036",
+                              "Measure": "12.1.2",
+                              "Type": "Assignment",
+                              "Date": "3/16/2023",
+                              "DueDate": "3/20/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1102025",
+                              "Measure": "12.1.1",
+                              "Type": "Assignment",
+                              "Date": "3/16/2023",
+                              "DueDate": "3/17/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/29/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067320",
+                              "Measure": "Chapter 11 Test",
+                              "Type": "Summative Assessment",
+                              "Date": "3/13/2023",
+                              "DueDate": "3/14/2023",
+                              "Score": "94 out of 100.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "94.00 / 100.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1085845",
+                              "Measure": "11.2.3",
+                              "Type": "Assignment",
+                              "Date": "3/10/2023",
+                              "DueDate": "3/13/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/13/2023",
+                              "DropEndDate": "3/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067317",
+                              "Measure": "11.2.2",
+                              "Type": "Assignment",
+                              "Date": "3/8/2023",
+                              "DueDate": "3/10/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067312",
+                              "Measure": "11.2.1",
+                              "Type": "Assignment",
+                              "Date": "3/7/2023",
+                              "DueDate": "3/8/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067309",
+                              "Measure": "11.1.2",
+                              "Type": "Assignment",
+                              "Date": "3/6/2023",
+                              "DueDate": "3/7/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067304",
+                              "Measure": "11.1.1",
+                              "Type": "Assignment",
+                              "Date": "3/3/2023",
+                              "DueDate": "3/6/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067299",
+                              "Measure": "Chapter 10 Test",
+                              "Type": "Summative Assessment",
+                              "Date": "3/1/2023",
+                              "DueDate": "3/1/2023",
+                              "Score": "90.5 out of 100.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "90.50 / 100.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067296",
+                              "Measure": "10.2.2",
+                              "Type": "Assignment",
+                              "Date": "2/27/2023",
+                              "DueDate": "2/28/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067289",
+                              "Measure": "10.2.1",
+                              "Type": "Assignment",
+                              "Date": "2/17/2023",
+                              "DueDate": "2/27/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067282",
+                              "Measure": "10.1.2",
+                              "Type": "Assignment",
+                              "Date": "2/15/2023",
+                              "DueDate": "2/17/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067274",
+                              "Measure": "10.1.1",
+                              "Type": "Assignment",
+                              "Date": "2/14/2023",
+                              "DueDate": "2/15/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063951",
+                              "Measure": "Chapter 9 Test",
+                              "Type": "Summative Assessment",
+                              "Date": "2/10/2023",
+                              "DueDate": "2/10/2023",
+                              "Score": "85.5 out of 100.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "85.50 / 100.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063948",
+                              "Measure": "9.3.2",
+                              "Type": "Assignment",
+                              "Date": "2/8/2023",
+                              "DueDate": "2/10/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063943",
+                              "Measure": "9.3.1",
+                              "Type": "Assignment",
+                              "Date": "2/7/2023",
+                              "DueDate": "2/8/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063939",
+                              "Measure": "9.2.3",
+                              "Type": "Assignment",
+                              "Date": "2/6/2023",
+                              "DueDate": "2/7/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063929",
+                              "Measure": "9.2.2",
+                              "Type": "Assignment",
+                              "Date": "2/3/2023",
+                              "DueDate": "2/6/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063926",
+                              "Measure": "9.2.1",
+                              "Type": "Assignment",
+                              "Date": "2/1/2023",
+                              "DueDate": "2/3/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063914",
+                              "Measure": "9.1.2",
+                              "Type": "Assignment",
+                              "Date": "1/31/2023",
+                              "DueDate": "2/1/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1063906",
+                              "Measure": "9.1.1",
+                              "Type": "Assignment",
+                              "Date": "1/30/2023",
+                              "DueDate": "1/31/2023",
+                              "Score": "5 out of 5.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 5.0000",
+                              "Notes": "",
+                              "TeacherID": "87264",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/10/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "UsesRichContent": "false",
+              "Period": "3",
+              "Title": "AP Japanese Lan (JAA801.0)",
+              "Room": "2117",
+              "Staff": "Lynda Hurley",
+              "StaffEMail": "HurleyL@bsd405.org",
+              "StaffGU": "0407CC29-7269-4350-B715-4AAE3E9F9D54",
+              "HighlightPercentageCutOffForProgressBar": "50"
+            },
+            "Marks": [
+              {
+                "Mark": [
+                  {
+                    "$": {
+                      "MarkName": "S2 Final",
+                      "CalculatedScoreString": "A",
+                      "CalculatedScoreRaw": "95"
+                    },
+                    "StandardViews": [""],
+                    "GradeCalculationSummary": [
+                      {
+                        "AssignmentGradeCalc": [
+                          {
+                            "$": {
+                              "Type": "Assignments",
+                              "Weight": "50%",
+                              "Points": "190.00",
+                              "PointsPossible": "200.00",
+                              "WeightedPct": "47.50%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "TOTAL",
+                              "Weight": "100%",
+                              "Points": "190.00",
+                              "PointsPossible": "200.00",
+                              "WeightedPct": "95.00%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Participation",
+                              "Weight": "50%",
+                              "Points": "0.00",
+                              "PointsPossible": "0.00",
+                              "WeightedPct": "0.00%",
+                              "CalculatedMark": "0"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "Assignments": [
+                      {
+                        "Assignment": [
+                          {
+                            "$": {
+                              "GradebookID": "1071073",
+                              "Measure": "Assignments for May ",
+                              "Type": "Assignments",
+                              "Date": "5/31/2023",
+                              "DueDate": "5/31/2023",
+                              "Score": "Not Due",
+                              "ScoreType": "Raw Score",
+                              "Points": "80.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31963",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/15/2023",
+                              "DropEndDate": "2/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1071070",
+                              "Measure": "Assignment for April ",
+                              "Type": "Assignments",
+                              "Date": "4/28/2023",
+                              "DueDate": "4/28/2023",
+                              "Score": "Not Due",
+                              "ScoreType": "Raw Score",
+                              "Points": "60.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31963",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/15/2023",
+                              "DropEndDate": "2/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1071067",
+                              "Measure": "Assignments for March ",
+                              "Type": "Assignments",
+                              "Date": "3/31/2023",
+                              "DueDate": "3/31/2023",
+                              "Score": "80 out of 80.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "80.00 / 80.0000",
+                              "Notes": "",
+                              "TeacherID": "31963",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/15/2023",
+                              "DropEndDate": "2/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1062508",
+                              "Measure": "Assignments for Feb 2023",
+                              "Type": "Assignments",
+                              "Date": "2/1/2023",
+                              "DueDate": "2/1/2023",
+                              "Score": "60 out of 60.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "60.00 / 60.0000",
+                              "Notes": "",
+                              "TeacherID": "31963",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/9/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1062511",
+                              "Measure": "Month of Feb 2023 ",
+                              "Type": "Assignments",
+                              "Date": "2/1/2023",
+                              "DueDate": "2/1/2023",
+                              "Score": "50 out of 60.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "50.00 / 60.0000",
+                              "Notes": "",
+                              "TeacherID": "31963",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/9/2023",
+                              "DropEndDate": "2/10/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "UsesRichContent": "false",
+              "Period": "4",
+              "Title": "AP Phys C -Mech (SCA701.0)",
+              "Room": "1120",
+              "Staff": "Michael Kralovich",
+              "StaffEMail": "kralovichm@bsd405.org",
+              "StaffGU": "179B13C8-BDCD-40A7-B839-A3A9D6B93F2E",
+              "HighlightPercentageCutOffForProgressBar": "50"
+            },
+            "Marks": [
+              {
+                "Mark": [
+                  {
+                    "$": {
+                      "MarkName": "S2 Final",
+                      "CalculatedScoreString": "B",
+                      "CalculatedScoreRaw": "89"
+                    },
+                    "StandardViews": [""],
+                    "GradeCalculationSummary": [
+                      {
+                        "AssignmentGradeCalc": [
+                          {
+                            "$": {
+                              "Type": "Tests/Quizzes",
+                              "Weight": "70%",
+                              "Points": "411.50",
+                              "PointsPossible": "425.00",
+                              "WeightedPct": "67.78%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Homework Quizzes",
+                              "Weight": "30%",
+                              "Points": "237.00",
+                              "PointsPossible": "342.00",
+                              "WeightedPct": "20.79%",
+                              "CalculatedMark": "D"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "TOTAL",
+                              "Weight": "100%",
+                              "Points": "648.50",
+                              "PointsPossible": "767.00",
+                              "WeightedPct": "89.00%",
+                              "CalculatedMark": "B"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "Assignments": [
+                      {
+                        "Assignment": [
+                          {
+                            "$": {
+                              "GradebookID": "1110179",
+                              "Measure": "Exam 7",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/31/2023",
+                              "DueDate": "3/31/2023",
+                              "Score": "95 out of 100.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "95.00 / 100.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "4/12/2023",
+                              "DropEndDate": "4/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1101889",
+                              "Measure": "Exam 6 Revisited",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/28/2023",
+                              "DueDate": "3/28/2023",
+                              "Score": "28.5 out of 30.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "28.50 / 30.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/28/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1101890",
+                              "Measure": "Lab Quiz - Swinging Meterstick",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/28/2023",
+                              "DueDate": "3/28/2023",
+                              "Score": "9 out of 9.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "9.00 / 9.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/28/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1101896",
+                              "Measure": "SHM Les 1-3 Quiz on paper",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/24/2023",
+                              "DueDate": "3/24/2023",
+                              "Score": "10 out of 12.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 12.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/28/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1095407",
+                              "Measure": "SHM Les 2",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/21/2023",
+                              "DueDate": "3/21/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1101273",
+                              "Measure": "Exam 6",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/20/2023",
+                              "DueDate": "3/20/2023",
+                              "Score": "95 out of 100.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "95.00 / 100.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/28/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1095145",
+                              "Measure": "WA 24",
+                              "Type": "Homework Quizzes",
+                              "Date": "3/17/2023",
+                              "DueDate": "3/17/2023",
+                              "Score": "43 out of 46.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "43.00 / 46.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1095153",
+                              "Measure": "WA 25",
+                              "Type": "Homework Quizzes",
+                              "Date": "3/17/2023",
+                              "DueDate": "3/17/2023",
+                              "Score": "13 out of 14.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "13.00 / 14.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1101891",
+                              "Measure": "Exam 5 Revisited",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/14/2023",
+                              "DueDate": "3/14/2023",
+                              "Score": "30 out of 30.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "30.00 / 30.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/28/2023",
+                              "DropEndDate": "3/29/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1086475",
+                              "Measure": "Prob - AP Rotation Practice",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/10/2023",
+                              "DueDate": "3/10/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/13/2023",
+                              "DropEndDate": "3/14/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1095143",
+                              "Measure": "WA 23 One Try",
+                              "Type": "Homework Quizzes",
+                              "Date": "3/8/2023",
+                              "DueDate": "3/8/2023",
+                              "Score": "5 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1086739",
+                              "Measure": "Prob - Bunch of Equilibrium",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/3/2023",
+                              "DueDate": "3/3/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/13/2023",
+                              "DropEndDate": "3/14/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1095142",
+                              "Measure": "WA 23",
+                              "Type": "Homework Quizzes",
+                              "Date": "3/3/2023",
+                              "DueDate": "3/3/2023",
+                              "Score": "38 out of 48.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "38.00 / 48.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1081579",
+                              "Measure": "Quiz - Rotation",
+                              "Type": "Tests/Quizzes",
+                              "Date": "3/1/2023",
+                              "DueDate": "3/1/2023",
+                              "Score": "14 out of 14.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "14.00 / 14.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "paper quiz",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/6/2023",
+                              "DropEndDate": "3/7/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1095141",
+                              "Measure": "WA 22 ONe Try",
+                              "Type": "Homework Quizzes",
+                              "Date": "3/1/2023",
+                              "DueDate": "3/1/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1081681",
+                              "Measure": "HW Quiz - Rotation Misconceptions",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/28/2023",
+                              "DueDate": "2/28/2023",
+                              "Score": "5 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "paper quiz",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/6/2023",
+                              "DropEndDate": "3/7/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073455",
+                              "Measure": "Rot Les 7 Quiz",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/17/2023",
+                              "DueDate": "2/17/2023",
+                              "Score": "5 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "5.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073454",
+                              "Measure": "WA 22",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/17/2023",
+                              "DueDate": "2/17/2023",
+                              "Score": "2 out of 29.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "2.00 / 29.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1070895",
+                              "Measure": "Exam 5",
+                              "Type": "Tests/Quizzes",
+                              "Date": "2/6/2023",
+                              "DueDate": "2/15/2023",
+                              "Score": "100 out of 100.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "100.00 / 100.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/15/2023",
+                              "DropEndDate": "2/16/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073448",
+                              "Measure": "WA 21 Q",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/15/2023",
+                              "DueDate": "2/15/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073447",
+                              "Measure": "Wa 21",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/10/2023",
+                              "DueDate": "2/10/2023",
+                              "Score": "27 out of 33.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "27.00 / 33.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1074131",
+                              "Measure": "Rotation Les 6 HW Quiz",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/8/2023",
+                              "DueDate": "2/8/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "paper quiz on practice problems",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073434",
+                              "Measure": "WA 18 Quiz",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/8/2023",
+                              "DueDate": "2/8/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073440",
+                              "Measure": "WA 19 Quiz",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/8/2023",
+                              "DueDate": "2/8/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073431",
+                              "Measure": "WA 20",
+                              "Type": "Homework Quizzes",
+                              "Date": "2/3/2023",
+                              "DueDate": "2/3/2023",
+                              "Score": "0 out of 41.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "0.00 / 41.0000",
+                              "Notes": "Missing (Zero) ",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073429",
+                              "Measure": "WA 18",
+                              "Type": "Homework Quizzes",
+                              "Date": "1/30/2023",
+                              "DueDate": "1/30/2023",
+                              "Score": "22 out of 22.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "22.00 / 22.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1073430",
+                              "Measure": "Wa 19",
+                              "Type": "Homework Quizzes",
+                              "Date": "1/30/2023",
+                              "DueDate": "1/30/2023",
+                              "Score": "27 out of 29.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "27.00 / 29.0000",
+                              "Notes": "",
+                              "TeacherID": "31959",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/17/2023",
+                              "DropEndDate": "2/18/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "UsesRichContent": "true",
+              "Period": "5",
+              "Title": "Adv Studies in English (ENH804.0)",
+              "Room": "2106",
+              "Staff": "Bryona Golding",
+              "StaffEMail": "goldingb@bsd405.org",
+              "StaffGU": "11E82399-53F1-491C-9133-D5D9B479598E",
+              "HighlightPercentageCutOffForProgressBar": "72"
+            },
+            "Marks": [
+              {
+                "Mark": [
+                  {
+                    "$": {
+                      "MarkName": "S2 Final",
+                      "CalculatedScoreString": "A",
+                      "CalculatedScoreRaw": "92.00"
+                    },
+                    "StandardViews": [""],
+                    "GradeCalculationSummary": [
+                      {
+                        "AssignmentGradeCalc": [
+                          {
+                            "$": {
+                              "Type": "Reading",
+                              "Weight": "50%",
+                              "Points": "18.40",
+                              "PointsPossible": "20.00",
+                              "WeightedPct": "46.00%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "TOTAL",
+                              "Weight": "100%",
+                              "Points": "18.40",
+                              "PointsPossible": "20.00",
+                              "WeightedPct": "92.00%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Speaking & Listening",
+                              "Weight": "10%",
+                              "Points": "0.00",
+                              "PointsPossible": "0.00",
+                              "WeightedPct": "0.00%",
+                              "CalculatedMark": "0"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Writing",
+                              "Weight": "20%",
+                              "Points": "0.00",
+                              "PointsPossible": "0.00",
+                              "WeightedPct": "0.00%",
+                              "CalculatedMark": "0"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Literary argument",
+                              "Weight": "20%",
+                              "Points": "0.00",
+                              "PointsPossible": "0.00",
+                              "WeightedPct": "0.00%",
+                              "CalculatedMark": "0"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "Assignments": [
+                      {
+                        "Assignment": [
+                          {
+                            "$": {
+                              "GradebookID": "1094224",
+                              "Measure": "Representation seminar",
+                              "Type": "Speaking & Listening",
+                              "Date": "3/22/2023",
+                              "DueDate": "3/23/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Percentage",
+                              "Points": "10.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/21/2023",
+                              "DropEndDate": "3/21/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1094223",
+                              "Measure": "Representation seminar prep",
+                              "Type": "Reading",
+                              "Date": "3/16/2023",
+                              "DueDate": "3/21/2023",
+                              "Score": "80",
+                              "ScoreType": "Percentage",
+                              "Points": "4.00 / 5.0000",
+                              "Notes": "research completed after seminar",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/21/2023",
+                              "DropEndDate": "3/21/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1090508",
+                              "Measure": "Window and Mirror annotation",
+                              "Type": "Reading",
+                              "Date": "3/14/2023",
+                              "DueDate": "3/16/2023",
+                              "Score": "88",
+                              "ScoreType": "Percentage",
+                              "Points": "4.40 / 5.0000",
+                              "Notes": "completed in class",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/16/2023",
+                              "DropEndDate": "3/17/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1105405",
+                              "Measure": "Coffee talk writing",
+                              "Type": "Writing",
+                              "Date": "3/6/2023",
+                              "DueDate": "3/10/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Percentage",
+                              "Points": "20.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "4/3/2023",
+                              "DropEndDate": "4/3/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1090506",
+                              "Measure": "Coffee talk",
+                              "Type": "Reading",
+                              "Date": "3/6/2023",
+                              "DueDate": "3/10/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Percentage",
+                              "Points": "30.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/16/2023",
+                              "DropEndDate": "3/17/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1090507",
+                              "Measure": "Coffee talk analysis and synthesis",
+                              "Type": "Literary argument",
+                              "Date": "3/6/2023",
+                              "DueDate": "3/10/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Percentage",
+                              "Points": "30.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/16/2023",
+                              "DropEndDate": "3/17/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1078549",
+                              "Measure": "Life of Pi reading notes",
+                              "Type": "Reading",
+                              "Date": "12/16/2022",
+                              "DueDate": "1/31/2023",
+                              "Score": "100",
+                              "ScoreType": "Percentage",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/2/2023",
+                              "DropEndDate": "3/3/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1078550",
+                              "Measure": "Life of Pi response",
+                              "Type": "Reading",
+                              "Date": "1/31/2023",
+                              "DueDate": "1/31/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Percentage",
+                              "Points": "10.0000 Points Possible",
+                              "Notes": "Excused ",
+                              "TeacherID": "31949",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/2/2023",
+                              "DropEndDate": "3/3/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$": {
+              "UsesRichContent": "true",
+              "Period": "6",
+              "Title": "AP Biology (SCA602.0)",
+              "Room": "1104",
+              "Staff": "Nathan Manning",
+              "StaffEMail": "manningn@bsd405.org",
+              "StaffGU": "65F0C0E0-6ECB-4ABC-AE5F-4F8537433672",
+              "HighlightPercentageCutOffForProgressBar": "50"
+            },
+            "Marks": [
+              {
+                "Mark": [
+                  {
+                    "$": {
+                      "MarkName": "S2 Final",
+                      "CalculatedScoreString": "A",
+                      "CalculatedScoreRaw": "93"
+                    },
+                    "StandardViews": [""],
+                    "GradeCalculationSummary": [
+                      {
+                        "AssignmentGradeCalc": [
+                          {
+                            "$": {
+                              "Type": "Graded Assignments",
+                              "Weight": "30%",
+                              "Points": "92.00",
+                              "PointsPossible": "99.00",
+                              "WeightedPct": "27.88%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "Assessments",
+                              "Weight": "70%",
+                              "Points": "49.00",
+                              "PointsPossible": "53.00",
+                              "WeightedPct": "64.72%",
+                              "CalculatedMark": "A"
+                            }
+                          },
+                          {
+                            "$": {
+                              "Type": "TOTAL",
+                              "Weight": "100%",
+                              "Points": "141.00",
+                              "PointsPossible": "152.00",
+                              "WeightedPct": "93.00%",
+                              "CalculatedMark": "A"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "Assignments": [
+                      {
+                        "Assignment": [
+                          {
+                            "$": {
+                              "GradebookID": "1107954",
+                              "Measure": "Evolution Quiz",
+                              "Type": "Assessments",
+                              "Date": "3/27/2023",
+                              "DueDate": "4/5/2023",
+                              "Score": "Not Graded",
+                              "ScoreType": "Raw Score",
+                              "Points": "29.0000 Points Possible",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "4/6/2023",
+                              "DropEndDate": "4/7/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1109271",
+                              "Measure": "FRQ Practice",
+                              "Type": "Graded Assignments",
+                              "Date": "4/5/2023",
+                              "DueDate": "4/5/2023",
+                              "Score": "4 out of 4.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "4.00 / 4.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "4/7/2023",
+                              "DropEndDate": "4/8/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1104588",
+                              "Measure": "HW Check: Selection and Speciation",
+                              "Type": "Graded Assignments",
+                              "Date": "3/27/2023",
+                              "DueDate": "3/31/2023",
+                              "Score": "11 out of 11.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "11.00 / 11.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "4/2/2023",
+                              "DropEndDate": "4/3/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1096403",
+                              "Measure": "Dolphin Paternity Assignment",
+                              "Type": "Graded Assignments",
+                              "Date": "3/20/2023",
+                              "DueDate": "3/23/2023",
+                              "Score": "8 out of 8.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "8.00 / 8.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1096397",
+                              "Measure": "Quiz- Reg of Gene Exp and Biotech",
+                              "Type": "Assessments",
+                              "Date": "3/14/2023",
+                              "DueDate": "3/23/2023",
+                              "Score": "25 out of 26.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "25.00 / 26.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1096343",
+                              "Measure": "Bacterial Transformation Analysis Questions",
+                              "Type": "Graded Assignments",
+                              "Date": "3/14/2023",
+                              "DueDate": "3/16/2023",
+                              "Score": "10 out of 10.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "10.00 / 10.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/22/2023",
+                              "DropEndDate": "3/23/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1091974",
+                              "Measure": "Bacterial Transformation Virtual Lab",
+                              "Type": "Graded Assignments",
+                              "Date": "3/13/2023",
+                              "DueDate": "3/16/2023",
+                              "Score": "12 out of 12.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "12.00 / 12.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/20/2023",
+                              "DropEndDate": "3/21/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1085474",
+                              "Measure": "Control of Gene Expression-Prokaryotes",
+                              "Type": "Graded Assignments",
+                              "Date": "3/6/2023",
+                              "DueDate": "3/9/2023",
+                              "Score": "9 out of 9.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "9.00 / 9.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/12/2023",
+                              "DropEndDate": "3/13/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1078058",
+                              "Measure": "Gene to Protein Quiz",
+                              "Type": "Assessments",
+                              "Date": "2/14/2023",
+                              "DueDate": "3/3/2023",
+                              "Score": "24 out of 27.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "24.00 / 27.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "3/2/2023",
+                              "DropEndDate": "3/3/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1076049",
+                              "Measure": "Assignment: Translation",
+                              "Type": "Graded Assignments",
+                              "Date": "2/15/2023",
+                              "DueDate": "2/17/2023",
+                              "Score": "2 out of 8.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "2.00 / 8.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/27/2023",
+                              "DropEndDate": "2/28/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1067530",
+                              "Measure": "Assignment: Transcription ",
+                              "Type": "Graded Assignments",
+                              "Date": "2/13/2023",
+                              "DueDate": "2/14/2023",
+                              "Score": "7 out of 7.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "7.00 / 7.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/13/2023",
+                              "DropEndDate": "2/14/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1068647",
+                              "Measure": "DNA Replication Diagram",
+                              "Type": "Graded Assignments",
+                              "Date": "2/8/2023",
+                              "DueDate": "2/13/2023",
+                              "Score": "15 out of 15.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "15.00 / 15.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/14/2023",
+                              "DropEndDate": "2/15/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          },
+                          {
+                            "$": {
+                              "GradebookID": "1058623",
+                              "Measure": "Chi Squared and Linked Genes Assignment",
+                              "Type": "Graded Assignments",
+                              "Date": "2/6/2023",
+                              "DueDate": "2/9/2023",
+                              "Score": "14 out of 15.0000",
+                              "ScoreType": "Raw Score",
+                              "Points": "14.00 / 15.0000",
+                              "Notes": "",
+                              "TeacherID": "31974",
+                              "StudentID": "22789",
+                              "MeasureDescription": "",
+                              "HasDropBox": "false",
+                              "DropStartDate": "2/7/2023",
+                              "DropEndDate": "2/8/2023"
+                            },
+                            "Resources": [""],
+                            "Standards": [""]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
