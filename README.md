@@ -1,4 +1,6 @@
-# Gradebook app that fetches from Synergy, and helps display extra data and calculates points needed for an assignment to get a desired grade. 
+# Mosachi
+
+Gradebook app that fetches from Synergy, and helps display extra data and calculates points needed for an assignment to get a desired grade. 
 
 ## Table of Contents
 
